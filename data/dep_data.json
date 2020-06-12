@@ -1,0 +1,32 @@
+{
+  "add_dep": {
+    "name": "唐皓666",
+    "code_bianhao": "009",
+    "manager ":"张三",
+    "introduce":"测试部",
+    "pid":"010",
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  },
+  "query_dep": {
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  },
+  "modify_dep": {
+    "name": "周星驰",
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  },
+  "delete_dep": {
+    "success": true,
+    "code": 10000,
+    "message": "操作成功",
+    "http_code": 200
+  }
+}
