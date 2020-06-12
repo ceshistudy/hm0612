@@ -22,8 +22,8 @@ suite1.addTest(unittest.makeSuite(TestIHRMLogin))
 suite2.addTest(unittest.makeSuite(TestIHRMDepartment))
 
 # 4 定义测试报告的目录和报告名称
-report_path1 = BASE_DIR + "/report/IHRMLogin{}.html".format(time.strftime('%Y%m%d %H%M%S'))
-report_path2 = BASE_DIR + "/report/IHRMDepartment{}.html".format(time.strftime('%Y%m%d %H%M%S'))
+report_path1 = BASE_DIR + "/report/IHRMLogin{}.html"
+report_path2 = BASE_DIR + "/report/IHRMDepartment{}.html"
 # 5 使用HTMLTestRunner_PY3生成测试报告
 with open(report_path1, mode='wb') as f:
     # 实例化HTMLTestRunner_PY3
